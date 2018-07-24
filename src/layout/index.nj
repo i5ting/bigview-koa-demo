@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <title>BigView 是一款基于 BigPipe 的 Node.js web 框架</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="BigView 是一款基于 BigPipe 的 Node.js web 框架。">
+  <meta name="keywords" content="BigPipe,Eggjs,Node">
+  <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+ <div class="jumbotron masthead">
+    <div class="container">
+      <h1>BigView</h1>
+      <h2>基于 BigPipe 的 Node.js web 框架。</h2>
+      <p class="masthead-button-links">
+        <a class="btn btn-lg btn-primary btn-shadow" href="https://github.com/bigviewjs/bigview" target="_blank" role="button">BigView 项目地址</a>
+      </p>
+    </div>
+  </div>
+    <div class="container bs-docs-container">
+      <div class="row">
+        <div class="col-md-9" role="main">  
+          {# Main Pagelet placeholder #}
+          <div id="bpmodule-main"></div>
+        </div>
+
+        <div class="col-md-3" role="complementary">       
+          {# Other Pagelet placeholder #}
+          <div class="jumbotron" id="bpmodule-other"></div>
+        </div>
+      </div>
+    </div>
+ 
+  <script src="/javascripts/bigview.runtime.js"></script>
+  <script>
+    console.log(bigview)  
+  </script>
+  </body>
+</html>

@@ -1,4 +1,5 @@
 *.log
+yarn.lock
 /.idea
 node_modules
 aaaa.html
