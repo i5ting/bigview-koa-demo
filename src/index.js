@@ -16,7 +16,7 @@ async function index(ctx) {
   // set main
   bigView.main = mainPagelet
   
-  // bigView.add(mainPagelet)
+  // set others
   bigView.add(otherPagelet)
 
   // you can custom bigView dataStore
