@@ -14,14 +14,12 @@ class OtherPagelet extends Biglet {
     this.domid = 'bpmodule-other'
   }
 
-  async parse () {
+  async fetch () {
     // use owner dataStore mainData
     const mainData = this.owner.dataStore.mainData
     const data = await fetch()
     const model = new Model(mainData, data)
     this.data = model.toJSON()
-
-    return this.data
   }
 }
 
