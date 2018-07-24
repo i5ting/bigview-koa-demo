@@ -7,7 +7,6 @@ const mainPagelet = require('./main')
 const otherPagelet = require('./other')
 
 async function index(ctx) {
-  // this.status = 200
   const bigView = new BigView(ctx)
 
   // set layout
