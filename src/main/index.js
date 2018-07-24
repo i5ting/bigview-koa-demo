@@ -15,16 +15,17 @@ class MainPagelet extends Biglet {
   }
 
   async fetch () {
-    // fetch data
-    const data = await fetch()
-    // set dataStore
-    this.owner.dataStore.mainData = data
+    // 网络请求获取数据
+    this._data = await fetch()
+    // 公共数据共享
+    this.owner.dataStore.mainData = this._data
+  }
 
-    const model = new Model(data)
+  async parse () {
+    // 模型转换
+    const model = new Model(this._data)
+    // 赋值data，用于模板编译
     this.data = model.toJSON()
-    
-    console.log(this.data)
-    return this.data
   }
 }
 
