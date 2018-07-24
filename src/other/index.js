@@ -5,8 +5,8 @@ const Biglet = require('biglet')
 const Model = require('./lib/model')
 const fetch = require('./lib/fetch')
 
-const Other1 = require('../other-1')
-const Other2 = require('../other-2')
+const Other1 = require('../other1')
+const Other2 = require('../other2')
 
 class OtherPagelet extends Biglet {
   constructor () {
