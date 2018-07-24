@@ -5,19 +5,13 @@ const Biglet = require('biglet')
 const Model = require('./lib/model')
 const fetch = require('./lib/fetch')
 
-const Other1 = require('../other-1')
-const Other2 = require('../other-2')
-
 class OtherPagelet extends Biglet {
   constructor () {
     super()
     this.root = __dirname
     this.tpl = './index.nj'
-    this.name = 'bpmodule-other'
-    this.domid = 'bpmodule-other'
-
-    this.addChild(Other1)
-    this.addChild(Other2)
+    this.name = 'bpmodule-other1'
+    this.domid = 'bpmodule-other1'
   }
 
   async fetch () {
