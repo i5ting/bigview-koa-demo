@@ -1,4 +1,6 @@
 <div class="jumbotron">
-  <h1>{{ headline }}</h1>
-  <a class="btn btn-primary btn-lg" href="#" role="button"><img src="{{ logo }}"/></a>
+  <h4>{{ headline }}</h4>
+  <p>1</p>
+  <p>2</p>
+  <p>3</p>
 </div>
