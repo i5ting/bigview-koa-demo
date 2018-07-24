@@ -13,5 +13,5 @@ see [Koa-generator](https://github.com/17koa/koa-generator) & [BigView](https://
 ```bash
 $ npm i
 $ npm start
-$ open http://localhost:7001/
+$ open http://localhost:3000/
 ```
