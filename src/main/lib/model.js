@@ -2,6 +2,7 @@ class Model {
   constructor(data) {
     this.headline = data.headline
     this.logo = data.logo
+    this.now = data.now
   }
 
   set headline(headline) {
@@ -23,7 +24,8 @@ class Model {
   toJSON() {
     return {
       headline: this.headline,
-      logo: this.logo
+      logo: this.logo,
+      now: this.now
     }
   }
 }
